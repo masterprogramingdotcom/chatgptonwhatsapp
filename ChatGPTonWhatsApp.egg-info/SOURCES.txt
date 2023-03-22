@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+ChatGPTonWhatsApp/__init__.py
+ChatGPTonWhatsApp.egg-info/PKG-INFO
+ChatGPTonWhatsApp.egg-info/SOURCES.txt
+ChatGPTonWhatsApp.egg-info/dependency_links.txt
+ChatGPTonWhatsApp.egg-info/requires.txt
+ChatGPTonWhatsApp.egg-info/top_level.txt

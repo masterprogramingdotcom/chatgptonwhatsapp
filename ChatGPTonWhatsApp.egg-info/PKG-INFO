@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: ChatGPTonWhatsApp
+Version: 0.0.3
+Summary: The following is a Python Package [ChatGPTonWhatsApp] that uses the Selenium and OpenAI libraries to create a chatbot for WhatsApp. The chatbot listens to incoming messages, processes them using OpenAI's GPT-3 language model, and replies with a generated response.
+Home-page: https://github.com/masterprogramingdotcom/chatgptonwhatsapp
+Author: Danish Ali
+Author-email: help@masterprograming.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# ChatGPTonWhatsApp Package
+
+The **\[[ChatGPTonWhatsApp](https://chatgptonwhatsapp.com/) ]** package is a Python package that allows you to integrate the OpenAI language model ChatGPT with WhatsApp. With this package, you can create a chatbot that can communicate with users through WhatsApp.
+
+##  Installation
+
+To install the package, you can use pip:
+
+```text python
+pip install ChatGPTonWhatsApp
+```
+
+## Usage
+
+To use the package, you need to import it and start the ChatGPTonWhatsApp service with your OpenAI API key. Here's an example:
+
+```Text python
+from ChatGPTonWhatsApp import ChatGPTonWhatsApp
+
+# Start the service with your OpenAI API key
+ChatGPTonWhatsApp.start(ChatGPT_API_Key)
+```
+Replace **ChatGPT_API_Key** with your actual ChatGPT API key.
+
+Once the service is started, your chatbot is ready to communicate with users through WhatsApp.
+
+## Notes
+
+- Before using this package, you need to have a **WhatsApp Account**.
+- You will need to provide your **[OpenAI API](https://platform.openai.com/signup)** key when starting the service
+- You can customize the behavior of the chatbot by modifying the code of the package.
+
+## Feedback
+
+If you have any feedback, please reach out to us at **help@masterprograming.com**
+
+## Contributing
+If you'd like to contribute to ChatGPTonWhatsApp, feel free to submit a pull request or open an issue.
+
+## Acknowledgments
+This project was inspired by the great work done by the OpenAI team in creating the ChatGPT language model.
